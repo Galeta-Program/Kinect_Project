@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Windows.Kinect;
+using TMPro;
 
 public class UIManager : MonoBehaviour
 {
@@ -19,12 +20,20 @@ public class UIManager : MonoBehaviour
     public int mouseSensitivity;
     [Range(10, 1000)]
     public int magnification;
-    //public GameObject mMouse;
+
+    public GameObject mainMeunBG;
+    public GameObject seleteGameBG;
+    public GameObject[] uiObjects;
+
+
     private MouseState mouseState = MouseState.MouseHover;
 
     private KinectSensor kinectSensor;
     private BodyFrameReader bodyFrameReader;
     private Body[] bodies;
+
+    const float oriWidth  = 673f;
+    const float oriHeight = 438f;
 
     enum MouseState
     {
@@ -41,8 +50,6 @@ public class UIManager : MonoBehaviour
 
         if (kinectSensor != null)
         {
-            //mouseSensitivity = 15;
-            //magnification = 200;
             kinectSensor.Open();
             bodyFrameReader = kinectSensor.BodyFrameSource.OpenReader();
             bodies = new Body[kinectSensor.BodyFrameSource.BodyCount];
@@ -53,6 +60,54 @@ public class UIManager : MonoBehaviour
         else
         {
             Debug.LogError("No Kinect sensor found!");
+        }
+
+        if (mainMeunBG != null)
+        {
+            mainMeunBG.transform.parent.GetComponent<RectTransform>().sizeDelta
+                = mainMeunBG.transform.parent.transform.parent.GetComponent<RectTransform>().sizeDelta;
+
+            mainMeunBG.transform.parent.GetComponent<RectTransform>().position
+                = mainMeunBG.transform.parent.transform.parent.GetComponent<RectTransform>().position;
+
+            mainMeunBG.GetComponent<RectTransform>().sizeDelta
+                = mainMeunBG.transform.parent.transform.parent.GetComponent<RectTransform>().sizeDelta;
+        }
+
+        if (seleteGameBG != null)
+        {
+            seleteGameBG.transform.parent.GetComponent<RectTransform>().sizeDelta
+                = seleteGameBG.transform.parent.transform.parent.GetComponent<RectTransform>().sizeDelta;
+
+            seleteGameBG.transform.parent.GetComponent<RectTransform>().position
+                = seleteGameBG.transform.parent.transform.parent.GetComponent<RectTransform>().position;
+
+            seleteGameBG.GetComponent<RectTransform>().sizeDelta
+                = seleteGameBG.transform.parent.transform.parent.GetComponent<RectTransform>().sizeDelta;
+        }
+
+        foreach (GameObject gameObject in uiObjects)
+        {
+            if (gameObject != null)
+            {
+                float wRatio = gameObject.transform.parent.transform.parent.GetComponent<RectTransform>().sizeDelta.x / oriWidth;
+                float hRatio = gameObject.transform.parent.transform.parent.GetComponent<RectTransform>().sizeDelta.y / oriHeight;
+                float avgRatio = (wRatio + hRatio) / 2f;
+                gameObject.GetComponent<RectTransform>().sizeDelta = gameObject.GetComponent<RectTransform>().sizeDelta * avgRatio;
+
+                //Debug.Log(gameObject.transform.parent.InverseTransformPoint(gameObject.GetComponent<RectTransform>().position));
+
+                Vector3 newPosition
+                    = gameObject.transform.parent.InverseTransformPoint(gameObject.GetComponent<RectTransform>().position) * avgRatio;
+                gameObject.GetComponent<RectTransform>().position = gameObject.transform.parent.TransformPoint(newPosition);
+
+                TMP_Text text = gameObject.GetComponentInChildren<TMP_Text>();
+
+                if (text != null)
+                {
+                    text.fontSize = (int)(text.fontSize * avgRatio);
+                }
+            }
         }
     }
 
