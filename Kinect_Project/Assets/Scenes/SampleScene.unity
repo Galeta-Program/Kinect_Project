@@ -1224,7 +1224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jointSpeeds:
   - joint: 0
-    magnification: 0
+    magnification: 0.1
     position: {x: 0, y: 0, z: 0}
     speed: 0
     prevPosition: {x: 0, y: 0, z: 0}
