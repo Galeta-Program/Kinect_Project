@@ -1120,6 +1120,7 @@ GameObject:
   - component: {fileID: 264381512}
   - component: {fileID: 264381513}
   - component: {fileID: 264381514}
+  - component: {fileID: 264381515}
   m_Layer: 0
   m_Name: KinectManager
   m_TagString: Untagged
@@ -1209,6 +1210,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outputImage: {fileID: 1694433757}
+--- !u!114 &264381515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264381511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee0a4648a0c53fc4a84b70be6053c097, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jointSpeeds:
+  - joint: 0
+    magnification: 0
+    position: {x: 0, y: 0, z: 0}
+    speed: 0
+    prevPosition: {x: 0, y: 0, z: 0}
+    prevTime: 0
 --- !u!1 &304764175
 GameObject:
   m_ObjectHideFlags: 0
