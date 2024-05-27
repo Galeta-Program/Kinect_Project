@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Weiny/Documents/Tugas/SMST 4/MULTIMEDIA LAB/Final Project/Kinect_Project
+C:/Users/Weiny/Desktop/kinect/Kinect_Project/Kinect_Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49923
-Successfully changed project path to: C:/Users/Weiny/Documents/Tugas/SMST 4/MULTIMEDIA LAB/Final Project/Kinect_Project
-C:/Users/Weiny/Documents/Tugas/SMST 4/MULTIMEDIA LAB/Final Project/Kinect_Project
+50333
+Successfully changed project path to: C:/Users/Weiny/Desktop/kinect/Kinect_Project/Kinect_Project
+C:/Users/Weiny/Desktop/kinect/Kinect_Project/Kinect_Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ C:/Users/Weiny/Documents/Tugas/SMST 4/MULTIMEDIA LAB/Final Project/Kinect_Projec
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23032] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3047488829 [EditorId] 3047488829 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-B6EDVCVB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [29936] Host "[IP] 140.118.219.220 [Port] 0 [Flags] 2 [Guid] 1836511585 [EditorId] 1836511585 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-B6EDVCVB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23032] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3047488829 [EditorId] 3047488829 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-B6EDVCVB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [29936] Host "[IP] 140.118.219.220 [Port] 0 [Flags] 2 [Guid] 1836511585 [EditorId] 1836511585 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-B6EDVCVB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 20.32 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 31.52 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.26f1 (ec6cd8118806)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Weiny/Documents/Tugas/SMST 4/MULTIMEDIA LAB/Final Project/Kinect_Project/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Weiny/Desktop/kinect/Kinect_Project/Kinect_Project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007434 seconds.
-- Loaded All Assemblies, in  0.383 seconds
+Registered in 0.012190 seconds.
+- Loaded All Assemblies, in  0.702 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.327 seconds
-Domain Reload Profiling: 708ms
-	BeginReloadAssembly (117ms)
+- Finished resetting the current domain, in  0.471 seconds
+Domain Reload Profiling: 1170ms
+	BeginReloadAssembly (226ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (155ms)
-		LoadAssemblies (114ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (103ms)
+	LoadAllAssembliesAndSetupDomain (276ms)
+		LoadAssemblies (223ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (153ms)
-			TypeCache.Refresh (152ms)
-				TypeCache.ScanAssembly (138ms)
+		AnalyzeDomain (272ms)
+			TypeCache.Refresh (270ms)
+				TypeCache.ScanAssembly (245ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (327ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (472ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (260ms)
+		SetupLoadedEditorAssemblies (373ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (180ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
+			ProcessInitializeOnLoadAttributes (248ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,35 +115,9 @@ Domain Reload Profiling: 708ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.904 seconds
-Refreshing native plugins compatible for Editor in 6.33 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.572 seconds
+Refreshing native plugins compatible for Editor in 10.92 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
-Error loading file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\Weiny\Documents\Tugas\SMST 4\MULTIMEDIA LAB\Final Project\Kinect_Project\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <b11ba2a8fbf24f219f7cc98532a11304>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <b11ba2a8fbf24f219f7cc98532a11304>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <b11ba2a8fbf24f219f7cc98532a11304>:0 
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <b11ba2a8fbf24f219f7cc98532a11304>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
-  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <b11ba2a8fbf24f219f7cc98532a11304>:0 
-  at System.IO.File.ReadAllText (System.String path, System.Text.Encoding encoding) [0x00034] in <b11ba2a8fbf24f219f7cc98532a11304>:0 
-  at UnityEditor.StateCache`1[T].GetState (UnityEngine.Hash128 key, T defaultValue) [0x00041] in <8a5cd56eb1bb450ba65aa5485166bfb3>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:GetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Kinect_Project
@@ -152,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.889 seconds
-Domain Reload Profiling: 1788ms
-	BeginReloadAssembly (169ms)
+- Finished resetting the current domain, in  1.330 seconds
+Domain Reload Profiling: 2889ms
+	BeginReloadAssembly (257ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (622ms)
-		LoadAssemblies (439ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (131ms)
+	LoadAllAssembliesAndSetupDomain (1055ms)
+		LoadAssemblies (733ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (280ms)
-			TypeCache.Refresh (237ms)
-				TypeCache.ScanAssembly (222ms)
-			ScanForSourceGeneratedMonoScriptInfo (26ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (889ms)
+		AnalyzeDomain (472ms)
+			TypeCache.Refresh (398ms)
+				TypeCache.ScanAssembly (371ms)
+			ScanForSourceGeneratedMonoScriptInfo (49ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1331ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (704ms)
+		SetupLoadedEditorAssemblies (1018ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (481ms)
-			ProcessInitializeOnLoadMethodAttributes (115ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (728ms)
+			ProcessInitializeOnLoadMethodAttributes (119ms)
+			AfterProcessingInitializeOnLoad (14ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 6.81 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 7.59 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5458 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 89 unused Assets / (0.8 MB). Loaded Objects now: 5914.
+Unloading 5470 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (0.8 MB). Loaded Objects now: 5923.
 Memory consumption went from 206.9 MB to 206.1 MB.
-Total: 4.480000 ms (FindLiveObjects: 0.451500 ms CreateObjectMapping: 0.355100 ms MarkObjects: 3.272400 ms  DeleteObjects: 0.400000 ms)
+Total: 5.068700 ms (FindLiveObjects: 0.494400 ms CreateObjectMapping: 0.202800 ms MarkObjects: 3.758900 ms  DeleteObjects: 0.610800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -210,68 +184,52 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 517.305322 seconds.
-  path: Assets/3D Assets/Base Game.prefab
-  artifactKey: Guid(5a7bcb2495bec8c469b76efba514b0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Base Game.prefab using Guid(5a7bcb2495bec8c469b76efba514b0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af650327e92c82a302a499a91d8feec') in 0.254471 seconds
+  Time since last request: 488288.076721 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889778e3614780279a0dc01c770dbbf5') in 0.004420 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 562
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 57.324095 seconds.
-  path: Assets/3D Assets/Characters/Chicken/All Animations/Chicken_Die.fbx
-  artifactKey: Guid(6a69d669faaf93844923d496a7e2e7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Characters/Chicken/All Animations/Chicken_Die.fbx using Guid(6a69d669faaf93844923d496a7e2e7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ae0071ea97626e106614b1acf2a25a') in 0.097572 seconds
+  Time since last request: 131.484120 seconds.
+  path: Assets/Scenes/dump
+  artifactKey: Guid(7aeb9acca21c536479115c2ef297aaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/dump using Guid(7aeb9acca21c536479115c2ef297aaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19cc036590477fec225f1cec9dec6b4') in 0.000760 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 66
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000780 seconds.
-  path: Assets/3D Assets/Characters/Chicken/All Animations/Chicken_Lose.fbx
-  artifactKey: Guid(84a8aab9a904199448e658567fa5848a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Characters/Chicken/All Animations/Chicken_Lose.fbx using Guid(84a8aab9a904199448e658567fa5848a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6e36cbcff150ab24ac81a46240fbd9') in 0.052368 seconds
+  Time since last request: 44.197767 seconds.
+  path: Assets/Scenes/RestartScene.unity
+  artifactKey: Guid(9916d94b7051ac643bbb7065d2000561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/RestartScene.unity using Guid(9916d94b7051ac643bbb7065d2000561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0c6cfc30bf1f3b48f6f91b82d343af') in 0.001167 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 66
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/3D Assets/Characters/Chicken/All Animations/Chicken_Walk.fbx
-  artifactKey: Guid(afa277a828fe35c438fb60a417e89b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Characters/Chicken/All Animations/Chicken_Walk.fbx using Guid(afa277a828fe35c438fb60a417e89b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa332e07a7d18eba10f98ccface85e11') in 0.054995 seconds
+  Time since last request: 7.389643 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(83aebf517446eaf499967f75c5b9ae7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(83aebf517446eaf499967f75c5b9ae7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d7a156e12d51efd9de4bac2169b0f6') in 0.001211 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 66
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/3D Assets/Characters/Chicken/All Animations/Chicken_Run.fbx
-  artifactKey: Guid(389cc75c60e05e141859213e0e9c66da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Characters/Chicken/All Animations/Chicken_Run.fbx using Guid(389cc75c60e05e141859213e0e9c66da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cff0da34bb5b7a20d29055a4a72aaa3') in 0.042158 seconds
+  Time since last request: 48.925738 seconds.
+  path: Assets/Prefabs/Finish Platform.prefab
+  artifactKey: Guid(048d07313eaa27b4882bdf548ba998aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Finish Platform.prefab using Guid(048d07313eaa27b4882bdf548ba998aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4ea5d33f1be28d9ec7bb910f052191') in 0.223493 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 66
+Number of asset objects unloaded after import = 52
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/3D Assets/Characters/Chicken/All Animations/Chicken_Idle.fbx
-  artifactKey: Guid(37e0c44f0ec8fcf4ebd9548e206300f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Characters/Chicken/All Animations/Chicken_Idle.fbx using Guid(37e0c44f0ec8fcf4ebd9548e206300f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf1db2f46c1390585c70ab5c4afc045') in 0.041973 seconds
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefabs/Roads.prefab
+  artifactKey: Guid(96d54973797ee614e8196f6016c80697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Roads.prefab using Guid(96d54973797ee614e8196f6016c80697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3571498061654c00059ac85b97e45bc2') in 0.023076 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 66
-========================================================================
-Received Import Request.
-  Time since last request: 36.878116 seconds.
-  path: Assets/3D Assets/Characters/Chicken/Texture/Chicken_Height.png
-  artifactKey: Guid(f5822966bdb092c4994f2181f35bcfa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Characters/Chicken/Texture/Chicken_Height.png using Guid(f5822966bdb092c4994f2181f35bcfa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12ea646e2f67317c5baf0c179fdb38d') in 0.056421 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/3D Assets/Characters/Chicken/Texture/Chicken_Roughness.png
-  artifactKey: Guid(6e374ed8e2ce9aa41bdd8761662380f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Characters/Chicken/Texture/Chicken_Roughness.png using Guid(6e374ed8e2ce9aa41bdd8761662380f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8f641a24042699262f3bece9a0143b') in 0.023486 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 38
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
