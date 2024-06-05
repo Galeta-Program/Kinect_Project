@@ -82,7 +82,6 @@ public class JointsCatcher : MonoBehaviour
 
     void OnDestroy()
     {
-        // Ãö³¬Kinect
         if (kinectSensor != null)
         {
             kinectSensor.Close();

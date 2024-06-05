@@ -3,7 +3,40 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - LightPunch
+  - HighPunch
+  - Backward
+  - Forward
+  - SquatDown
+  - Jump
+  - LightKick
+  - HighKick
+  - ground
+  - LightPunchCB
+  - HighPunchCB
+  - LightKickCB
+  - HighKickCB
+  - JumpLightPunchCB
+  - JumpHighPunchCB
+  - JumpLightKickCB
+  - JumpHighKickCB
+  - SDLightPunchCB
+  - SDHighPunchCB
+  - SDLightKickCB
+  - SDHighKickCB
+  - Player1
+  - Player2
+  - AI
+  - QigongCB
+  - CloseLightPunchCB
+  - CloseHighPunchCB
+  - CloseLightKickCB
+  - CloseHighKickCB
+  - UppercutCB
+  - Ultimate3CB
+  - Ultimate2CB
+  - Ultimate1CB
   layers:
   - Default
   - TransparentFX
@@ -11,7 +44,7 @@ TagManager:
   - 
   - Water
   - UI
-  - Background
+  - 
   - 
   - 
   - 

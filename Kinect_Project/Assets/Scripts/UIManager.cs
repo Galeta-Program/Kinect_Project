@@ -114,6 +114,11 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (kinectSensor != null && !kinectSensor.IsOpen)
+        {
+            kinectSensor.Open();
+        }
+
         if (bodyFrameReader != null)
         {
             using (BodyFrame bodyFrame = bodyFrameReader.AcquireLatestFrame())
@@ -188,7 +193,6 @@ public class UIManager : MonoBehaviour
 
     void OnDestroy()
     {
-        // Ãö³¬Kinect
         if (kinectSensor != null)
         {
             kinectSensor.Close();

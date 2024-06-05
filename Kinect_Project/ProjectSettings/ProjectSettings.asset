@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: d23c203c4362d8b44838b4344df8c276
+  productGUID: 97897ff19a8e5e74c973ca820ebad9ca
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -676,14 +676,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Kinect_Project
+  metroPackageName: test2
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Kinect_Project
+  metroApplicationDescription: test2
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -753,10 +753,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: a707f0ff-2c66-452c-8d46-cbf3fa04041c
+  cloudProjectId: 9752f954-165c-4a34-abe6-4cf90e6c6b8c
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Kinect_Project
+  projectName: test2 2024-05-05_16-43-32
   organizationId: s6218926
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

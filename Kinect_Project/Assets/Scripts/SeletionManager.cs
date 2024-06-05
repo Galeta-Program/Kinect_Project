@@ -8,7 +8,7 @@ public class SeletionManager : MonoBehaviour
     [System.Serializable]
     public class GameSeletion
     {
-        public Camera gameCamera;
+        public GameObject gameCamera;
         public Texture2D gameImage;
         public string detail;
     }
@@ -174,7 +174,7 @@ public class SeletionManager : MonoBehaviour
         }
     }
 
-    ButtonWithID CreateButton(int index, Camera gameCamera, Texture2D gameImage, string gameText)
+    ButtonWithID CreateButton(int index, GameObject gameCamera, Texture2D gameImage, string gameText)
     {        
         GameObject buttonGO = new GameObject("Button");
         buttonGO.transform.SetParent(transform);
@@ -225,14 +225,14 @@ public class SeletionManager : MonoBehaviour
         return buttonWID;
     }
 
-    void Switch2TargetCamera(ButtonWithID buttonWithID, Camera targetCamera)
+    void Switch2TargetCamera(ButtonWithID buttonWithID, GameObject targetCamera)
     {    
         int index = buttonWithID.buttonID;
         Debug.Log(index);
 
         if (index == 0 && targetCamera != null)
         {
-            // 禁用所有相機
+            // 嚙確嚙諄所佗蕭嚙諛橘蕭
             GameObject[] mainCameras = GameObject.FindGameObjectsWithTag("MainCamera");
 
             foreach (GameObject cameraObject in mainCameras)
@@ -253,7 +253,6 @@ public class SeletionManager : MonoBehaviour
                 }
             }
 
-            // 啟用目標相機
             targetCamera.gameObject.SetActive(true);
         }
         else if (index == 1 && !leftMoving && !rightMoving)
