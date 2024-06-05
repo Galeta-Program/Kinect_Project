@@ -1160,6 +1160,7 @@ GameObject:
   - component: {fileID: 264381512}
   - component: {fileID: 264381513}
   - component: {fileID: 264381514}
+  - component: {fileID: 264381515}
   m_Layer: 0
   m_Name: KinectManager
   m_TagString: Untagged
